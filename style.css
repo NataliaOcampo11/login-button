@@ -1,0 +1,25 @@
+
+/* Main button style */
+.github-button {
+    background-color: #000000; /* Sets the button background to black */
+    color: white; /* Makes the text white */
+    border: none; /* Removes the default border */
+    padding: 12px 25px; /* Adds space inside the button */
+    margin-top: 40px; /* Adds space above the button */
+    display: block; /* Makes the button a block element */
+    margin-left: auto; /* Centers the button horizontally */
+    margin-right: auto; /* Centers the button horizontally */
+    font-size: 16px; /* Sets the text size */
+    cursor: pointer; /* Changes the cursor to a pointer */
+    transition: background-color 0.2s ease; /* Makes color changes smoother */
+}
+
+/* Hover effect */
+.github-button:hover {
+    background-color: #24292d; /* Changes the background when hovering */
+}
+
+/* Click effect */
+.github-button:active {
+    background-color: #444c56; /* Changes the background while clicking */
+}
